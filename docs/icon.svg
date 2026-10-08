@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SafeMark">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f58fb4"/>
+      <stop offset="1" stop-color="#b8326f"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="118" y="150" width="276" height="196" rx="26"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <path d="M256 58 404 112v118c0 104-62 176-148 214-86-38-148-110-148-214V112z" fill="#fff" opacity=".16"/>
+  <rect x="118" y="150" width="276" height="196" rx="26" fill="#fff"/>
+  <g clip-path="url(#card)">
+    <circle cx="186" cy="230" r="34" fill="#f6c6d8"/>
+    <path d="M140 330c6-38 26-56 46-56s40 18 46 56z" fill="#f6c6d8"/>
+    <rect x="252" y="200" width="112" height="16" rx="8" fill="#f3d9e4"/>
+    <rect x="252" y="232" width="84" height="16" rx="8" fill="#f3d9e4"/>
+    <rect x="252" y="282" width="28" height="28" fill="#2b1a24"/>
+    <rect x="280" y="282" width="28" height="28" fill="#6b4558"/>
+    <rect x="308" y="282" width="28" height="28" fill="#2b1a24"/>
+    <rect x="336" y="282" width="28" height="28" fill="#6b4558"/>
+    <g stroke="#c83f79" stroke-width="12" stroke-linecap="round" opacity=".55">
+      <path d="M100 330 260 150"/>
+      <path d="M200 380 400 160"/>
+    </g>
+  </g>
+  <circle cx="380" cy="368" r="58" fill="#fff"/>
+  <path d="M352 368l20 20 38-40" fill="none" stroke="#b8326f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafeMark 安心水印 — ID copy watermark & photo mosaic, no upload</title>
+<meta name="description" content="Watermark ID copies with a tiled for-use-only line and date, pixelate faces or black out ID numbers — in the browser, nothing uploaded. 身份证加水印、图片打马赛克，本地处理不上传。">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://cv.cm/en/watermark/">
+<style>
+:root{--ink:#3d2232;--soft:#7a5468;--pink:#c83f79;--bg:#fff7fb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,"PingFang SC",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+main{max-width:880px;margin:0 auto;padding:40px 16px 64px}
+header{display:flex;gap:16px;align-items:center}header img{width:72px;height:72px}
+h1{margin:0;font-size:2rem;color:var(--pink)}p.lead{font-size:1.1rem;color:var(--soft)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.cta a{background:var(--pink);color:#fff;text-decoration:none;padding:10px 18px;border-radius:999px;font-weight:600}
+.cta a.ghost{background:#fff;color:var(--pink);border:2px solid #f6c6d8}
+img.shot{width:100%;border-radius:16px;margin:12px 0;box-shadow:0 8px 24px rgba(161,63,108,.12)}
+h2{color:var(--pink);margin-top:36px}a{color:var(--pink)}
+</style>
+</head>
+<body><main>
+<header><img src="icon.svg" alt=""><div><h1>SafeMark · 安心水印</h1><div>ID copy watermark &amp; photo mosaic — on your device</div></div></header>
+<p class="lead">Tile “for [org] use only + date” across an ID copy, black out numbers, pixelate faces. Nothing is uploaded.<br>身份证加「仅供XX使用」水印，拖框打马赛克，本地处理不上传。</p>
+<div class="cta">
+<a href="https://cv.cm/en/watermark/">Watermark tool</a>
+<a href="https://cv.cm/en/mosaic/">Mosaic tool</a>
+<a class="ghost" href="https://cv.cm/zh-cn/watermark/">在线加水印</a>
+<a class="ghost" href="https://cv.cm/zh-cn/mosaic/">在线打马赛克</a>
+</div>
+<img class="shot" src="id-copy-en.jpg" alt="ID copy with a tiled watermark and a blacked-out number">
+<h2>Black box for numbers, mosaic for faces</h2>
+<p>A fine mosaic can leave digits readable; a coarse mosaic or a black box cannot.</p>
+<img class="shot" src="mosaic-vs-black.jpg" alt="Fine mosaic, coarse mosaic, black box">
+<h2>Guides · 教程</h2>
+<ul>
+<li><a href="https://cv.cm/en/learn/watermark-id-copy/">How to watermark an ID copy</a> · <a href="https://cv.cm/zh-cn/learn/watermark-id-copy/">身份证复印件怎么加水印</a></li>
+<li><a href="https://cv.cm/en/learn/mosaic-photo/">How to pixelate part of a photo</a> · <a href="https://cv.cm/zh-cn/learn/mosaic-photo/">怎么给图片打马赛克</a></li>
+<li><a href="https://cv.cm/en/learn/add-watermark/">How to add a watermark to a photo</a> · <a href="https://cv.cm/zh-cn/learn/add-watermark/">怎么给照片加水印</a></li>
+</ul>
+<p>Open-source engine: <a href="https://github.com/mantoufan/safemark">github.com/mantoufan/safemark</a> · More tools at <a href="https://cv.cm/">cv.cm</a></p>
+</main></body></html>
