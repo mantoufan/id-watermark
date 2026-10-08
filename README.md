@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/icon.svg" width="96" alt="SafeMark icon"></p>
+<p align="center"><img src="docs/icon.svg" width="96" alt="ID Watermark & Redact icon"></p>
 
-<h1 align="center">SafeMark · 安心水印</h1>
+<h1 align="center">ID Watermark & Redact · 身份证水印打码</h1>
 
 <p align="center">
 Watermark ID copies and pixelate private details — entirely in the browser.<br>
@@ -35,10 +35,10 @@ A fine mosaic can leave digits readable. A coarse mosaic or a solid box cannot.
 
 ## Use the engine
 
-`src/safemark.ts` is a dependency-free TypeScript module for the browser.
+`src/id-watermark.ts` is a dependency-free TypeScript module for the browser.
 
 ```ts
-import { renderWatermark } from "./safemark";
+import { renderWatermark } from "./id-watermark";
 
 const img = await createImageBitmap(file);
 const canvas = renderWatermark(img, img.width, img.height, {
@@ -74,7 +74,7 @@ Exports: `renderWatermark`, `pixelate`, `redactionBox`, `mosaicCell`, `tilePitch
 
 ## 中文说明
 
-办银行卡、租房、入职经常要发身份证照片。**安心水印**让证件照离开设备前，先变成「只能用于这一件事」的副本：
+办银行卡、租房、入职经常要发身份证照片。**身份证水印打码**让证件照离开设备前，先变成「只能用于这一件事」的副本：
 
 1. 打开 [cv.cm/zh-cn/watermark](https://cv.cm/zh-cn/watermark/)，拖入证件照片（或点「用示例证件试试」）。
 2. 点「证件防盗用」，把 XX 改成对象和用途，例如「仅供办理XX银行卡使用」，保留日期。
@@ -87,7 +87,7 @@ Exports: `renderWatermark`, `pixelate`, `redactionBox`, `mosaicCell`, `tilePitch
 
 ## More browser tools
 
-SafeMark is part of [cv.cm](https://cv.cm/) — free on-device tools: [merge PDF](https://cv.cm/en/merge-pdf/), [compress PDF](https://cv.cm/en/compress-pdf/), [HEIC to JPG](https://cv.cm/en/convert/heic-to-jpg/), [remove EXIF](https://cv.cm/en/exif/), [crop](https://cv.cm/en/crop/), [resize](https://cv.cm/en/resize/), [QR code](https://cv.cm/en/qr/). Source: [mantoufan/cvcm](https://github.com/mantoufan/cvcm).
+ID Watermark & Redact is part of [cv.cm](https://cv.cm/) — free on-device tools: [merge PDF](https://cv.cm/en/merge-pdf/), [compress PDF](https://cv.cm/en/compress-pdf/), [HEIC to JPG](https://cv.cm/en/convert/heic-to-jpg/), [remove EXIF](https://cv.cm/en/exif/), [crop](https://cv.cm/en/crop/), [resize](https://cv.cm/en/resize/), [QR code](https://cv.cm/en/qr/). Source: [mantoufan/cvcm](https://github.com/mantoufan/cvcm).
 
 ## License
 
